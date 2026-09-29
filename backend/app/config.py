@@ -4,3 +4,4 @@ DATA_DIR = Path(os.environ.get("DATA_DIR", Path(__file__).resolve().parent.paren
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 DB_PATH = DATA_DIR / "app.db"
 DEFAULT_OVERLAP = 1.15
+DEFAULT_PAD_PCT = 8.0
