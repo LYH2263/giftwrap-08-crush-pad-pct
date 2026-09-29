@@ -452,6 +452,44 @@ button.ribbon:hover {
   font-size: 0.95rem;
 }
 
+/* —— pad toggle / percent controls —— */
+.switch,
+.pct-field {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.switch input,
+.pct-field input[type="checkbox"] {
+  min-width: 0;
+  width: auto;
+  transform: scale(1.15);
+  accent-color: var(--ribbon);
+}
+
+.pct-field {
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.pct-input {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.pct-field input[type="number"] {
+  min-width: 0;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.85);
+}
+
 /* —— unfold diagram —— */
 .unfold {
   margin-top: 1.1rem;
